@@ -48,7 +48,7 @@ def main():
 	point1 = []
 	point2 = []
 
-	with open('day5.dat','r') as f:
+	with open('day5-input.txt','r') as f:
 		for line in f.readlines():
 			p1, p2 = line.split(' -> ')
 			p1 = [int(i) for i in p1.strip('\n').split(',')]

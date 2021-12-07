@@ -38,7 +38,7 @@ def calculate(board, winNum):
 
 def main():
 
-	with open('day4.dat','r') as f:
+	with open('day4-input.txt','r') as f:
 		nums = f.readline().split(',')
 		for i, line in enumerate(f.readlines()):
 			if len(line) == 1:

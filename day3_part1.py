@@ -1,5 +1,4 @@
-
-data = [i.strip('\n') for i in open('day3.dat','r').readlines()]
+data = [i.strip('\n') for i in open('day3-input.txt','r').readlines()]
 
 position = [[0,0],[0,0],[0,0],[0,0],[0,0]]
 

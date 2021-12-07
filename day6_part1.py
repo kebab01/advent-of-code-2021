@@ -1,4 +1,4 @@
-data = open('day6.dat','r').readline()
+data = open('day6-input.txt','r').readline()
 starter = [int(i) for i in data.split(',')]
 
 print(starter)

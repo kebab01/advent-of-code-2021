@@ -43,7 +43,7 @@ if __name__ == "__main__":
 	boards = []
 	winningBoards = []
 
-	with open('day4.dat','r') as f:
+	with open('day4-input','r') as f:
 		nums = f.readline().split(',')
 		for i, line in enumerate(f.readlines()):
 			if len(line) == 1:
