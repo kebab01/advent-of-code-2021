@@ -1,7 +1,5 @@
-
-
 data = []
-with open('day1_data.txt', 'r') as f:
+with open('day1.dat', 'r') as f:
 	data = [int(i.strip('\n')) for i in f.readlines()]
 
 counter = 0

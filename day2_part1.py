@@ -1,6 +1,6 @@
 
 data = []
-with open('day2_part1.dat', 'r') as f:
+with open('day2.dat', 'r') as f:
 	data = [i.strip('\n') for i in f.readlines()]
 
 position = [0,0]

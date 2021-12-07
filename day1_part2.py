@@ -1,18 +1,6 @@
 data = []
-with open('day1_part2_data.txt', 'r') as f:
+with open('day1.dat', 'r') as f:
 	data = [int(i.strip('\n')) for i in f.readlines()]
-
-# data =[
-# 199,
-# 200,
-# 208,
-# 210,
-# 200,
-# 207,
-# 240,
-# 269,
-# 260,
-# 263]
 
 arrayOfSums = []
 
